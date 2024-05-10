@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+header{
+    display: block;
+    text-align: center;
+    background-color:beige;
+}
+header h1{
+    margin: 0px;
+    padding: 20px;
+}
+
+/*stylisation du modal*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 100px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#addBook {
+    padding: 15px;
+    margin: 10px;
+    font-size: 1em;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+
+}
+
+.modalContent{
+    text-align: center;
+    background-color: #cad5e2;
+    margin:auto;
+    border: 1px solid grey;
+    border-radius: 7px;
+    width: 50%;
+}
+.modalContent h2{
+    padding-top: 30px;
+    
+}
+.close{
+    color: grey;
+    float:right;
+    padding-right:10px;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover, .close:focus{
+    color: red;
+    text-decoration: none;
+}
+form{
+    padding: 20px;
+
+}
+label, input, form button{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+form button{
+    background-color: green;
+    color: white;
+}

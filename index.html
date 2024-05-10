@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mes livre</title>
+</head>
+<body>
+    <header>
+        <h1>Ma liste de livre</h1>
+        <button id="addBook" type="button">Ajout de livre</button>
+    </header>
+    <div id="bookList">
+
+    </div>
+    <div class="modal" id="bookModal" >
+        <div class="modalContent">
+            <span class="close" id="closeBtn">X</span>
+            <h2>Ajout d'un nouveau livre</h2>
+            <div class="form">
+                <form>
+                    <label>Titre du livre</label><br>
+                    <input class="form-input" type="text" id="bookTitle" name="bonnkTitle"><br>
+
+                    <label>Nom de l'auteur</label><br>
+                    <input class="form-input" type="text" id="nomAuteur" name="nomAuteur"><br>
+
+                    <button class="saveBook" id="saveBook" type="button">Ajouter</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--partie pour afficher les livre -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
