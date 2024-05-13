@@ -63,5 +63,6 @@ saveBook.onclick = function(){
     }
 
     //aficher les livres saisi
-    affichageLivre()    
+    affichageLivre()  
 }
+affichageLivre()  
