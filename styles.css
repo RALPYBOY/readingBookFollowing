@@ -1,12 +1,15 @@
 body{
     margin: 0px;
     padding: 0px;
-
+    background-image: url(./bg.jpg);
+    
 }
 header{
     display: block;
     text-align: center;
-    background-color:beige;
+    background-color:#005db5;
+    color: white;
+    
 }
 header h1{
     margin: 0px;
@@ -39,7 +42,8 @@ header h1{
 
 .modalContent{
     text-align: center;
-    background-color: #cad5e2;
+    color: white;
+    background-color: #005db5;
     margin:auto;
     border: 1px solid grey;
     border-radius: 7px;
@@ -57,6 +61,7 @@ header h1{
     font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    
 }
 
 .close:hover, .close:focus{
@@ -77,4 +82,23 @@ label, input, form button{
 form button{
     background-color: green;
     color: white;
+}
+.centerDiv{
+    
+    background-color: black;
+}
+.bookList{
+    
+    background-color: #00a8f0;
+    padding-bottom: 20px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    display: flex;
+    justify-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
 }
